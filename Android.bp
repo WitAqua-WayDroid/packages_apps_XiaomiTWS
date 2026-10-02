@@ -23,9 +23,4 @@ android_app {
     optimize: {
         proguard_flags_files: ["proguard.flags"],
     },
-
-    jni_libs: [
-        "libxm_bluetooth",
-    ],
-    use_embedded_native_libs: true,
 }
